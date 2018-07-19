@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Code Tuts - Jquery Dropdown Without Ajax</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form>
+		Kategori
+		<select id="type">
+			<!-- Bagian ini bisa diambil dari database -->
+			<option value="">-- Pilih Tipe --</option>
+			<option value="1">Laptop</option>
+			<option value="2">Smartphone</option>
+			<option value="3">Aksesoris</option>
+			<option value="4">Kamera</option>
+		</select>
+
+		Produk
+		<select id="product">
+			<!-- Bagian ini bisa diambil dari database -->
+			<option value="">-- Pilih Produk --</option>
+			<option value="1" type-id="1">Lenovo Thinkpad</option>
+			<option value="2" type-id="4">Sony A5000</option>
+			<option value="3" type-id="2">Xiaomi Redmi 3</option>
+			<option value="4" type-id="2">Iphone X</option>
+			<option value="5" type-id="4">Canon EOS 70D</option>
+			<option value="6" type-id="3">Asus Keyboard</option>
+			<option value="7" type-id="3">Kabel Data</option>
+			<option value="8" type-id="1">Macbook Pro</option>
+			<option value="9" type-id="2">Samsung A3</option>
+		</select>
+	</form>
+
+	<!-- Load Jquery & Script js -->
+	<script src="jquery-3.2.1.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
